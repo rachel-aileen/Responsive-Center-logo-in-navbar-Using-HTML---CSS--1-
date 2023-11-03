@@ -1,0 +1,244 @@
+@import url('https://fonts.cdnfonts.com/css/sweet-sans-pro');
+
+*
+{
+margin:0;
+padding:0;
+}
+body
+{
+background-image:url(/videos/milk_-_98044\ \(1440p\).mp4);
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center;
+width:100%;
+height:100vh;
+font-weight:400;
+}
+
+/* ////////// Navigation //////////*/
+.navigation
+{
+background-color: #F5F1EB;
+height: 16vh;
+}
+
+.logo {
+    width: 11em !important;
+    margin-top: 32px;
+}
+
+.navigation > .nav-container {
+max-width:90%;
+margin:auto;
+}
+
+.navigation .navbar {
+position:relative;
+}
+
+.navigation .navbar .logo-toggle-container {
+position:absolute;
+left:50%;
+top:5px;
+transform:translateX(-50%);
+}
+
+.navigation .navbar .logo-toggle-container a {
+display:block;
+}
+
+.navigation .navbar .logo-toggle-container a img {
+width:120px;
+}
+
+.navigation .menu {
+text-align:right;
+}
+
+@media screen and (min-width:1050px)
+{
+.navigation .menu
+{
+display:block !important;
+height:auto !important;
+}
+}
+.navigation .menu li
+{
+display:inline-block;
+padding:40px 10px;
+}
+.navigation .menu li a
+{
+display:block;
+padding:8px 24px;
+text-decoration:none;
+font-weight:400;
+letter-spacing:1px;
+color:#333;
+font-size:11px;
+font-family: 'Sweet Sans Pro', sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+                                                
+}
+.navigation .menu li:nth-child(1),
+.navigation .menu li:nth-child(2),
+.navigation .menu li:nth-child(3)
+{
+float:left;
+}
+.navigation .menu li:hover a
+{
+background-color:#252525;
+color:green;
+}
+@media screen and (max-width:1050px)
+{	
+
+.navigation {
+ background-color: white;
+height: 15vh;
+ }
+
+ .logo {
+    margin-left: 16px;
+ }
+
+ .navigation > .nav-container {
+    max-width:100%;
+    margin:auto;
+    }
+
+.navigation .navbar .logo-toggle-container {
+position:static;
+transform:translateX(0%);
+}
+
+.logo {
+    width: 9em !important;
+   
+}
+
+.navigation .navbar .logo-toggle-container a {
+width:80%;
+}
+
+.navigation .navbar .logo-toggle-container .toggle-box
+{
+position:absolute;
+right:10px;
+top:30px;
+display:block;
+width:30px;
+padding:15px 9px;
+cursor:pointer;
+border-radius:5px;
+background-color:#252525;
+z-index: 9999 !important;
+}
+
+.navigation .navbar .logo-toggle-container .toggle-box span
+{
+display:block;
+max-width:90%;
+margin:auto;
+height:2px;
+background-color:#fff !important;
+margin-bottom:4px;
+}
+.navigation .navbar .logo-toggle-container .toggle-box span:last-child
+{
+margin-bottom:0;
+}
+.navigation .menu
+{
+text-align:center;
+display:none;
+margin-top: 40px;
+}
+.navigation .menu li
+{
+display:block;
+float:none !important;
+padding: 30px 0px;
+background-color: white;
+width: 100%;
+}
+
+.menu {
+  position: relative;
+  z-index: 10000; 
+  height: 100%;
+
+}
+
+}
+
+/* ////////// Hero Section ////////// */
+.hero-image {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    
+  }
+  
+  #background-video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+  
+  .hero-title {
+    font-family: 'Canela Text Trial', sans-serif;                                   
+    padding-bottom: 32px;
+    font-size: 45px;
+    font-weight: 100;
+    color: var(--primary-color);
+  }
+  
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    color: var(--text-color);
+    z-index: 1
+  }
+  
+  .hero-subtitle {
+    font-family: 'HK Grotesk', sans-serif;                                          
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    padding-bottom: 32px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  .hero-button {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-family: "Sweet Sans Pro", sans-serif;
+    padding: 20px 32px;
+    text-transform: uppercase;
+    transition: background-color 1s;
+    letter-spacing: 2px;
+    cursor: grab;
+    font-weight: 500;
+  
+  }
+  
+  .hero-button:hover {
+    background-color: var(--text-color-light);
+    color: var(--secondary-color);
+  }
+  
+ 
